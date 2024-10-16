@@ -1,0 +1,4 @@
+"user_input_text","sttTime","sentence","gptTimePerSentence","ttsTimePerSentence","avatarPerSentence","avatarPer1SecMean"
+"안녕",0.774,"안녕하세요,",2.455,0.864,1.602,1.5793554782867432
+"안녕",0.774,"aa님.",0.001,1.378,1.539,1.5186595916748047
+"안녕",0.774,"오늘은 어떤 이유로 찾아오셨나요?",0.001,1.132,3.06,1.0095549424489338

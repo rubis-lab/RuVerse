@@ -1,0 +1,11 @@
+nohup: ignoring input
+Here in index, connecting to the db
+Server started on port 13303
+(node:1799078) NOTE: The AWS SDK for JavaScript (v2) will enter maintenance mode
+on September 8, 2024 and reach end-of-support on September 8, 2025.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+Authenticated
+Success
