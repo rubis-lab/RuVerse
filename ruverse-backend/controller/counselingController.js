@@ -52,7 +52,7 @@ async function transcribe_speech_nodejs(filename){
       });
     return transcription.text;
 }
-const filePath = path.join(__dirname, '../data/text/prompt_ver4.1.txt');
+const filePath = path.join(__dirname, '../data/text/prompt_compassion.txt');
 const gpt_prompt = fs.readFileSync(filePath, 'utf8'); ////// 이 부분 prompt_ver4 또는 ver5로 변경해야 함
 
 async function create_assistant_nodejs(prompt = gpt_prompt){

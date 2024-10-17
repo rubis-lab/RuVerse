@@ -142,12 +142,18 @@ def avatar_route():
     os.chdir("../MuseTalk")
     print(num_audio_file)
     avatar_times = []
+
+    if avatar_name == 'sonny':
+        fps = 30
+    else:
+        fps = 25
+
     for segment_wav_counter in range(num_wav_in_temp_audio_segment, num_wav_in_temp_audio_segment + num_audio_file):
         input_audio_chunk = f'{input_audio_path}/temp_audio_segment/segment_{segment_wav_counter}.wav'
         avatar_number = segment_wav_counter % len(selected_avatar)
        
         avatar_inference_start_time = time.time()
-        output_vid = selected_avatar[avatar_number].inference(input_audio_chunk, output_path, 30, False, avatar_number, segment_wav_counter)
+        output_vid = selected_avatar[avatar_number].inference(input_audio_chunk, output_path, fps, False, avatar_number, segment_wav_counter)
         
         avatar_inference_end_time = time.time() 
         
